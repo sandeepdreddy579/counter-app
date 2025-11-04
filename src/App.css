@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.counter1 {
+  height: 300px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: rgb(206, 219, 219);
+ 
+ 
+}
+
+.container{
+ display: flex;
+ flex-direction: column;
+
+
+ 
+}
+
+.score{
+  font-size: 34px;
+  margin: 20px;
+  
+}
+
+.btn1{
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(175, 159, 173);
+  color: white;
+ 
+}
+
+.btn1:hover{
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(103, 167, 151);
+  color: rgb(12, 12, 12);
+ 
+}
+
+
+
+.flexCenter{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
